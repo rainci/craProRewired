@@ -7,7 +7,7 @@
  * @FilePath: /craProRewired/src/pages/one/index.js
  */
 import React,{PureComponent} from "react";
-
+import './css/index.less'
 class OneCom extends  PureComponent  {
     constructor(props) {
         super(props)
@@ -15,8 +15,9 @@ class OneCom extends  PureComponent  {
     }
     render(){
         return(
-            <div>
+            <div className="oneContainer">
                 one test！
+                <p className="title">i am one title </p>
             </div>
         )
     }
