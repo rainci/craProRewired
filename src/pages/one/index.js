@@ -8,6 +8,7 @@
  */
 import React,{PureComponent} from "react";
 import './css/index.less'
+// import './css/index.css'
 class OneCom extends  PureComponent  {
     constructor(props) {
         super(props)

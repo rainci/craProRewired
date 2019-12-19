@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-12-18 14:56:59
+ * @LastEditTime : 2019-12-19 14:31:56
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /craProRewired/src/router/main.js
+ */
 import React from "react";
 import { Layout } from 'antd';
 import { Route, } from 'react-router-dom';
@@ -10,7 +18,7 @@ class Main extends React.Component{
     render(){
         return(
             <Layout>
-                    <Sider width={200} style={{ background: '#fff' }}>
+                    <Sider className="titles" width={200} style={{ background: '#fff' }}>
                         menu side
                     </Sider>
                     <Content style={{ padding: '10px' }}>
